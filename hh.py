@@ -1,1 +1,1 @@
-print('Nicolas alergico al gol')
+print('alergico al gol')
