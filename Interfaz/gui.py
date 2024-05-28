@@ -5,7 +5,7 @@ root.title("CONDOR")
 root._set_appearance_mode("light")
 root.geometry("1000x600")
 root.resizable(0, 0)
-root.config(bg= "light pink")
+root.config(bg = "light pink")
 root.iconbitmap("logo.ico")
 #---------------------------VARIABLES---------------------------
 hora_llegada = "13:00"
@@ -13,7 +13,7 @@ hora_salida = "10:00"
 lugar_salida = "Bogotá"
 lugar_llegada = "Cartagena"
 ida = f"Ida: {lugar_salida} - {lugar_llegada}"
-precio = "$2.000.000"
+precio = "2.000.000"
 fecha = "2024-06-13"
 flechita = "-------------------------------------->"
 #---------------------------FRAMES---------------------------
@@ -116,7 +116,7 @@ text_lugar_llegada = CTkLabel(master = frame_opciones,
 text_desde = CTkLabel(master = frame_opciones,
                       text = """DESDE:
 
-                         COP""",
+                         COP $""",
                       fg_color = "beige",
                       text_color = "black",
                       font = ("roboto", 11),
@@ -253,7 +253,7 @@ text_lugar_salida.place(x = 70, y = 70, relwidth = 0.08, relheight = 0.057)
 text_hora_llegada.place(x = 400, y = 45, relwidth = 0.08, relheight = 0.057)
 text_lugar_llegada.place(x = 400, y = 70, relwidth = 0.08, relheight = 0.057)
 text_desde.place(x = 480, y = 35, relwidth = 0.19, relheight = 0.15)
-text_precio.place(x = 620, y = 69, relwidth = 0.08, relheight = 0.057)
+text_precio.place(x = 620, y = 68, relwidth = 0.08, relheight = 0.057)
 text_flechita.place(x = 156, y = 42, relwidth = 0.265, relheight = 0.1)
 boton_eleccion1.place(x = 795, y = 50, relwidth = 0.08, relheight = 0.057)
 boton_eleccion2.place(x = 795, y = 150, relwidth = 0.08, relheight = 0.057)
